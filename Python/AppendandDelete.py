@@ -33,3 +33,4 @@ def appendAndDelete(s, t, k):
         return "Yes"
     else:
         return "No"
+print(appendAndDelete("hackerhappy", "hackerrank", 9))
