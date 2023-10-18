@@ -29,7 +29,7 @@ def appendAndDelete(s, t, k):
  
     total_changes = delt + appd
 
-    if k - total_changes >=0:
+    if (k - total_changes >= 0 and (k - total_changes) % 2 == 0) or (k >= len(s) + len(t)):
         return "Yes"
     else:
         return "No"
